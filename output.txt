@@ -1,0 +1,1 @@
+I <x length="1 be%2:42:03::|1.0">am</x> <x length="1 very%4:02:00::|1.0">very</x> <x length="1 curious%5:00:00:strange:00|1.0">curious</x> if this <x length="1 algorithm%1:09:00::|1.0">algorithm</x> <x length="1 will%2:42:00::|1.0">will</x> <x length="1 work%2:41:02::|1.0">work</x> .
