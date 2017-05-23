@@ -101,7 +101,7 @@ public final class CAllWordsFineTaskCorpus extends CLexicalCorpus {
 		StringBuilder builder = new StringBuilder("");
 		for (int i = 0; i < p_Text.getContentSize(); i++) {
 			Content cont = p_Text.getContent(i);
-			if (org.jdom.Text.class.isInstance(cont)) {
+			if (Text.class.isInstance(cont)) {
 				String value = cont.getValue().replaceAll("[\r\n]", " ").trim();
 				value = this.m_CleanPattern.matcher(value).replaceAll(" ");
 				builder.append(value + " ");

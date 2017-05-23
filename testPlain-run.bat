@@ -1,0 +1,1 @@
+testPlain.bat "c:/cfn/models/wsd/semcor30_wngloss_models/semcor30_wngloss_models" "c:/users/sander~1.put/appdata/local/temp/tmpv2no8f" "C:\cfn\sourcetree\it_makes_sense_WSD\out3.txt" "/home/izquierdo/wordnets/wordnet-3.0/dict/index.sense" 1 1 0
