@@ -6,3 +6,11 @@ IMS (It Makes Sense) is a supervised English all-words word sense disambiguation
 [NUS Natural Language Processing Group](http://www.comp.nus.edu.sg/~nlp/home.html)
 
 Zhong, Zhi, & Ng, Hwee Tou (2012). Word Sense Disambiguation Improves Information Retrieval. Proceedings of the 50th Annual Meeting of the Association for Computational Linguistics (ACL 2012). (pp. 273 – 282). Jeju, South Kore
+
+libs and models can be found [here](http://www.comp.nus.edu.sg/~nlp/software.html
+) (bat file is included for dependency installation).
+
+    mvn install:install-file -Dfile=weka-3.2.3.jar -DgroupId=nz.ac.waikato.cms.weka -DartifactId=weka-stable -Dversion=3.2.3 -Dpackaging=jar 
+    mvn install:install-file -Dfile=maxent-2.4.0.jar -DgroupId=org.apache.opennlp -DartifactId=opennlp-maxent -Dversion=2.4.0 -Dpackaging=jar
+    mvn install:install-file -Dfile=opennlp-tools-1.3.0.jar -DgroupId=org.apache.opennlp -DartifactId=opennlp-tools -Dversion=1.3.0 -Dpackaging=jar
+    mvn install:install-file -Dfile=liblinear-1.33-with-deps.jar -DgroupId=de.bwaldvogel -DartifactId=liblinear -Dversion=1.3.3 -Dpackaging=jar
