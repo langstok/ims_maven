@@ -10,7 +10,10 @@ Zhong, Zhi, & Ng, Hwee Tou (2012). Word Sense Disambiguation Improves Informatio
 libs and models can be found [here](http://www.comp.nus.edu.sg/~nlp/software.html
 ) (bat file is included for dependency installation).
 
-    mvn install:install-file -Dfile=weka-3.2.3.jar -DgroupId=nz.ac.waikato.cms.weka -DartifactId=weka-stable -Dversion=3.2.3 -Dpackaging=jar 
-    mvn install:install-file -Dfile=maxent-2.4.0.jar -DgroupId=org.apache.opennlp -DartifactId=opennlp-maxent -Dversion=2.4.0 -Dpackaging=jar
-    mvn install:install-file -Dfile=opennlp-tools-1.3.0.jar -DgroupId=org.apache.opennlp -DartifactId=opennlp-tools -Dversion=1.3.0 -Dpackaging=jar
-    mvn install:install-file -Dfile=liblinear-1.33-with-deps.jar -DgroupId=de.bwaldvogel -DartifactId=liblinear -Dversion=1.3.3 -Dpackaging=jar
+    wget http://www.comp.nus.edu.sg/~nlp/sw/lib.tar.gz
+    tar -xvf lib.tar.gz
+
+    mvn install:install-file -Dfile=.\lib\weka-3.2.3.jar -DgroupId=nz.ac.waikato.cms.weka -DartifactId=weka-stable -Dversion=3.2.3 -Dpackaging=jar 
+    mvn install:install-file -Dfile=.\lib\maxent-2.4.0.jar -DgroupId=org.apache.opennlp -DartifactId=opennlp-maxent -Dversion=2.4.0 -Dpackaging=jar
+    mvn install:install-file -Dfile=.\lib\opennlp-tools-1.3.0.jar -DgroupId=org.apache.opennlp -DartifactId=opennlp-tools -Dversion=1.3.0 -Dpackaging=jar
+    mvn install:install-file -Dfile=.\lib\liblinear-1.33-with-deps.jar -DgroupId=de.bwaldvogel -DartifactId=liblinear -Dversion=1.3.3 -Dpackaging=jar
