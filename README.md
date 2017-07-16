@@ -1,2 +1,2 @@
 # ims_maven
-IMS WSD build by maven
+IMS WSD maven project
